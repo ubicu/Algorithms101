@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Algorithms.Core;
+using System;
 
 namespace Algorithms.Main
 {
@@ -7,6 +8,7 @@ namespace Algorithms.Main
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            var testClass = new Class1();
         }
     }
 }
