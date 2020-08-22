@@ -31,7 +31,7 @@ namespace Algorithms.Core
 
         public T Get(int index)
         {
-            return _data[index];
+            return _data[index]; 
         }
 
         public void Set(int index, T value)
