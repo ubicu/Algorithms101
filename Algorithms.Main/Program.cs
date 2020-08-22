@@ -8,7 +8,7 @@ namespace Algorithms.Main
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            var testClass = new Class1();
+            var testClass = new DynamicArray<string>(5);
         }
     }
 }
