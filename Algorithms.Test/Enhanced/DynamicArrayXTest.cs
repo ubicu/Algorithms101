@@ -1,7 +1,5 @@
-﻿using Algorithms.Core;
+﻿using Algorithms.Core.Enhanced;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using Xunit;
 
 namespace Algorithms.Test

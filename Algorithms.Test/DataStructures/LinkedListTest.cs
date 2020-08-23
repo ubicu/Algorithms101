@@ -15,6 +15,7 @@ namespace Algorithms.Test
             linkedList.AddFront(2);
             linkedList.AddFront(3);
 
+            Assert.Equal(3, linkedList.Size());
             Assert.Equal(3, linkedList.GetFirst());
             Assert.Equal(1, linkedList.GetLast());
         }
@@ -49,6 +50,7 @@ namespace Algorithms.Test
             linkedList.AddBack(2);
             linkedList.AddBack(3);
 
+            Assert.Equal(3, linkedList.Size());
             Assert.Equal(1, linkedList.GetFirst());
             Assert.Equal(3, linkedList.GetLast());
         }

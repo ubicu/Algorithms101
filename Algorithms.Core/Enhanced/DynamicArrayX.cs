@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Algorithms.Core
+namespace Algorithms.Core.Enhanced
 {
     /*
      * Improved implementation for DynamicArray 
